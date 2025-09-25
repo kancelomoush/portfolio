@@ -1,3 +1,16 @@
+/* --- Custom dark mode red for hero section and buttons --- */
+.dark-mode .accent-text {
+  color: #e53935 !important; /* Red for 'Lasfar' */
+}
+.dark-mode .typed {
+  color: #e53935 !important; /* Red for 'I'm a ...' */
+}
+.dark-mode .btn-primary:hover,
+.dark-mode .btn-outline:hover {
+  background: #e53935 !important;
+  border-color: #e53935 !important;
+  color: #fff !important;
+}
 .light-mode .info-box {
   background: #fff !important;
   color: #222 !important;
