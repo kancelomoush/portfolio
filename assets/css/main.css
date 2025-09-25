@@ -1,3 +1,11 @@
+.dark-mode .header .navmenu a:hover,
+.dark-mode .header .navmenu .active {
+  color: #e53935 !important;
+}
+.dark-mode .header .navmenu a:hover .navicon,
+.dark-mode .header .navmenu .active .navicon {
+  color: #e53935 !important;
+}
 /* --- Custom dark mode red for hero section and buttons --- */
 .dark-mode .accent-text {
   color: #e53935 !important; /* Red for 'Lasfar' */
